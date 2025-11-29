@@ -486,11 +486,11 @@ a {
 
 .skill-fade-text {
   position: absolute;
-  font-size: 15em;
+  font-size: 10em;
   font-style: bold;
   color: rgb(231, 231, 231);
-  bottom: -34.5%;
-  right: -25%;
+  bottom: -30.5%;
+  right: -8%;
   user-select: none;
   overflow-y: hidden;
 }
@@ -601,4 +601,47 @@ a {
 .submit-icon {
   padding: 0 1rem;
   font-size: 1.5rem;
+}
+footer {
+  position: relative;
+  margin-top: -1px;
+  background-color: #343d68;
+  padding: 5rem;
+}
+
+.footer-wrapper {
+  display: flex;
+  gap: 1rem;
+  padding: 1.2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-faded-text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #535c87;
+  user-select: none;
+  font-size: 3em;
+}
+
+.link-wrapper {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.link-wrapper div a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.6s;
+}
+
+.link-wrapper div a:hover {
+  color: var(--bgOrange);
+}
+
+.icon-wrapper {
+  display: flex;
+  gap: 1rem;
 }
